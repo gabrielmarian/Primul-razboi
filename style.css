@@ -1,0 +1,65 @@
+#pagina {
+	width: 960px;
+	margin:0 auto;
+	overflow: hidden;
+}
+#container {
+	font-size: 1.3em;
+	font-family:"Libre Baskerville ";
+	overflow: hidden;
+}
+header {
+	margin: -1em;
+	background-color: #decdb9;
+	text-align: CENTER;
+	font-family: caligrafic;
+}
+#header img {
+	margin-top: 2em;
+	width: 500px;
+	height: 300px;
+}
+
+/*stilizare meniu orizontwl*/
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	text-transform: uppercase;
+	margin-left: 30px;
+	font-size:12px;
+	font-weight: bold;
+}
+nav ul li a {
+	text-decoration:none;
+}
+
+nav ul li a:hover {
+	
+	color:red;
+}
+#container blockquote{
+	float:  right;
+	color: #484848;
+	font-size: .8em;
+	width: 30%;
+}
+#colstanga {
+	width:550px;
+	float: left;
+	color:red;
+}
+
+#coldreapta {
+	width:400px;
+	float: right;
+	
+}
+@font-face {
+	font-family: caligrafic;
+	src: url('font/Calligraffiti.ttf');
+
